@@ -60,6 +60,7 @@ steps:
   inputs:
     testRunner: JUnit
     testResultsFiles: '$(modulePath)/reports/junit.xml'
+    alwaysRun: 'true'
 
 - task: PublishCodeCoverageResults@1
   inputs:
